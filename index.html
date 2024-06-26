@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROJECT-10</title>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="CSS/style.css" type="text/css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="img-select">
+            <div class="img active">
+                <a href="#" data-id="1"><img src="IMAGES/1.png" alt="laptop" > </a>
+            </div>
+            <div class="img">
+                <a href="#"  data-id="2"><img src="IMAGES/2.png" alt="laptop"> </a>
+            </div>
+            <div class="img">
+                <a href="#"  data-id="3"><img src="IMAGES/3.png" alt="laptop"> </a>
+            </div>
+            <div class="img">
+                <a href="#"  data-id="4"><img src="IMAGES/4.png" alt="laptop"> </a>
+            </div>
+            <div class="img ">
+                <a href="#"  data-id="5"><img src="IMAGES/5.png" alt="laptop"> </a>
+            </div>
+            <div class="img ">
+                <a href="#"  data-id="6"><img  src="IMAGES/6.png" alt="laptop"> </a>
+            </div>
+            <div class="img">
+                <a href="#"  data-id="7"><img src="IMAGES/7.png" alt="laptop"> </a>
+            </div>
+            <div class="img ">
+                <a href="#"  data-id="8"><img src="IMAGES/8.png" alt="laptop"> </a>
+            </div>
+        </div>
+        <div class="card-left">
+            
+            <div class="main-image">
+                    <img src="IMAGES/1.png" alt="laptop">
+                    <img src="IMAGES/2.png" alt="laptop">
+                    <img src="IMAGES/3.png" alt="laptop">
+                    <img src="IMAGES/4.png" alt="laptop">
+                    <img src="IMAGES/5.png" alt="laptop">
+                    <img src="IMAGES/6.png" alt="laptop">
+                    <img src="IMAGES/7.png" alt="laptop">
+                    <img src="IMAGES/8.png" alt="laptop">
+            </div>
+        </div>
+        
+        <div class="card-right">
+            <h2>MSI GF63 Intel Core i5 11th Gen 11260H </h2>
+            <div class="star">
+               <div class="star-group">
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+               </div>
+               <span>3 Reviews</span>
+            </div>
+            <h4>$75 <span>$50.00</span></h4>
+            <div class="content">
+            <p>Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet </p>
+            <p>Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet</p>
+            <p>Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet</p>
+        </div>
+
+            <div class="form">
+                <div class="form-group">
+                    <label for="Color"></label>
+                    <select>
+                        <option value="Black">Black</option>
+                        <option value="Grey">Grey</option>
+                        <option value="white">White</option>
+                        <option value="white">Red</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Qty</label>
+                    <div class="input-group">
+                        <button id="minus">-</button>
+                        <input id="qty" value="1" type="text">
+                        <button id="plus">+</button>
+                      
+                       
+                    </div>
+                </div>
+            </div>
+
+        <button class="btnCart">Add Cart</button>
+
+        </div>
+    </div>
+
+    <script src="JS/script.js"></script>
+</body>
+</html>
+
+<!-- 
+
+first-child , for selecting first image only .
+clientWidth for fetching the width of the particular image or div.
+//const imgFrame=document.querySelectorAll('.main-image')[0];  we can also use querySelectorAll but we must mention the location(index) [0].
+-->

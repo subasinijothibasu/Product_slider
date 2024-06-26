@@ -1,0 +1,187 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    /* background-color:#716d6d; */
+}
+
+body{
+    width:100vw;
+    height:100vh;
+    background-color:rgb(60, 58, 58);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.container{
+    width:1100px;
+    height:520px;
+    display:flex;
+    background-color: white;
+    border-radius:5px;
+    border:2px solid black;
+}
+
+
+
+img{
+    width:100%;
+}
+
+
+.card-left{
+    width:500px;
+    height:510px;
+    background-color:white;
+    padding:5px;
+    border:3px solid white;
+    border-radius:3px;
+    overflow:hidden;
+   
+  
+}
+
+.main-image{
+    display:flex;
+    transition:all 0.3s ease;
+    margin-top:60px;
+   
+}
+
+.img-select{
+    display:flex;
+    flex-direction:column;
+    margin-top:2px;
+    padding:3px;
+    overflow:hidden;
+
+}
+
+.img-select img{
+    height:40px;
+    width:40px;
+    border:1px solid black;
+    margin-bottom:10px;
+    margin-top:10px;
+    padding:5px;
+}
+
+.active img{
+    border:3px solid orange;
+}
+
+.img-select img:hover{
+    border:3px solid rgb(6, 10, 15);
+    transition-duration: 0.1s;
+}
+
+.card-right{
+    border-left:3px double black;
+    padding:10px;
+}
+
+.card-right h2{
+    font-weight:500;
+    margin:5px 0;
+    
+}
+
+.star{
+    display:flex;
+    gap:20px;
+    cursor:pointer;
+}
+
+.star-group ion-icon{
+    color:rgba(0,0,0,0.5)
+}
+
+.star-group ion-icon:nth-child(1),
+.star-group ion-icon:nth-child(2),
+.star-group ion-icon:nth-child(3)
+  {  color:gold;
+}
+
+.card-right h4{
+    margin-top:20px;
+    font-size:18px;
+    font-weight:500;
+}
+
+.card-right h4 span{
+    text-decoration:line-through;
+    color:rgba(0,0,0,0.3);
+    font-size:15px;
+    padding-left:15px;
+}
+.card-right .content {
+    height:250px;
+    overflow:hidden;
+}
+
+.card-right p{
+    color:rgba(0,0,0,0.8);
+    padding:10px 0;
+    margin:15px 0;
+}
+
+.form{
+    display:flex;
+    justify-content:space-between;
+    width:400px;
+    margin-bottom:20px;
+}
+
+.form-group label,
+.form-group select
+{
+    display:flex;
+    margin-top:20px;
+}
+
+
+.form-group select{
+    width:150px;
+    height:30px;
+    border:1px solid white;
+    border-radius:3px;
+}
+
+.input-group{
+    display:flex;
+    width:220px;
+    height:30px;
+}
+
+.input-group input{
+    width:30px;
+    border:1px solid #ccc;
+    outline:none;  
+    margin-top:5px;
+    padding-left:10px;
+
+}
+
+.input-group button{
+    width:30px;
+    outline:none;
+    border:none;
+    background-color: #111;
+    color:white;
+    margin-top:5px;
+}
+
+
+
+.btnCart{
+    width:65px;
+    height:40px;
+    border:none;
+    outline:none;
+    color:white;
+    background-color: orange;
+    border-radius:5px;
+    font-size:14px;
+}
+
